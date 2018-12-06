@@ -9,6 +9,6 @@ package l.ileinterdite;
  *
  * @author rousstan
  */
-public class Navigateur {
+public class Navigateur extends Aventurier{
     
 }
