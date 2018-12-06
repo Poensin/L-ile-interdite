@@ -9,6 +9,6 @@ package l.ileinterdite;
  *
  * @author rousstan
  */
-public class Ingenieur {
+public class Ingenieur extends Aventurier{
     
 }
