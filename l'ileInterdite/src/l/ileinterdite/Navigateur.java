@@ -10,5 +10,11 @@ package l.ileinterdite;
  * @author rousstan
  */
 public class Navigateur extends Aventurier{
+
+    public Navigateur(String nomJoueur, Tuile caseDepart, Tuile position) {
+        super(nomJoueur, caseDepart, position);
+    }
+    
+    
     
 }

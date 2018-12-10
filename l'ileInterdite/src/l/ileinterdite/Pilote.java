@@ -9,6 +9,12 @@ package l.ileinterdite;
  *
  * @author rousstan
  */
-public class Pilote {
+public class Pilote extends Aventurier{
+
+    public Pilote(String nomJoueur, Tuile caseDepart, Tuile position) {
+        super(nomJoueur, caseDepart, position);
+    }
+    
+    
     
 }

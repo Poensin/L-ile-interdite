@@ -9,6 +9,11 @@ package l.ileinterdite;
  *
  * @author rousstan
  */
-public class Ingenieur extends Aventurier{
+public class Ingenieur extends Aventurier {
+
+    public Ingenieur(String nomJoueur, Tuile caseDepart, Tuile position) {
+        super(nomJoueur, caseDepart, position);
+    }
+  
     
 }

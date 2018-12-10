@@ -9,6 +9,12 @@ package l.ileinterdite;
  *
  * @author rousstan
  */
-public class Messager {
+public class Messager extends Aventurier{
+
+    public Messager(String nomJoueur, Tuile caseDepart, Tuile position) {
+        super(nomJoueur, caseDepart, position);
+    }
+    
+    
     
 }

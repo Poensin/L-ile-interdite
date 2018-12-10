@@ -9,6 +9,9 @@ package l.ileinterdite;
  *
  * @author rousstan
  */
-public class MessageAction {
-    
+public enum MessageAction {
+    BOUGER,
+    ASSECHER,
+    POUVOIR,
+    PASSER;
 }
