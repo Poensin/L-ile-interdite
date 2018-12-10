@@ -9,6 +9,9 @@ package l.ileinterdite;
  *
  * @author rousstan
  */
-public class EtatTuile {
+public enum EtatTuile {
+    COULEE,
+    SECHE,
+    INONDEE;
     
 }
